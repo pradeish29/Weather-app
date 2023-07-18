@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+    height: 40rem;
+    background: url('https://source.unsplash.com/random?cityscape') fixed no-repeat;
+    background-size: cover;
+}
+.card{
+    background-color: #000000d8;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 20px;
+    color: #ededed;
+    width: 400px;
+    height: auto;
+}
+.temp{
+    font-family: 'Montserrat','sans-serif';   
+}
+.desc{
+    text-transform: capitalize;
+}
+.content{
+    margin: 1.3rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.temp{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.search{
+    background: #222;
+    height: 50px;
+    width: 250px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: #edededed;
+    padding: 5px;
+    padding-left:8%;
+    font-size: 20px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    background: #222;
+    color: #edededed;
+}
+button:hover{
+    background: #363636b7;
+}
+.hidden.loading{
+    visibility: hidden;
+    height: 0;
+}
+@media(max-width = 768px){
+    body{
+        height: 60rem;
+    }
+}
